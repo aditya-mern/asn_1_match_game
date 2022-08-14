@@ -1,0 +1,59 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  min-height: 100vh;
+}
+
+.app-store {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  max-width: 1110px;
+}
+.search-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  width: 100%;
+  max-width: 250px;
+  border-radius: 10px;
+
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-input-container {
+    max-width: 580px;
+  }
+}
+.display-image {
+  width: 60%;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+.tabs-list {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 0px;
+  margin-top: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .tabs-list {
+    margin-top: 48px;
+  }
+}
+
+.apps-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0px;
+}
